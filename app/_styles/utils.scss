@@ -1,0 +1,43 @@
+@keyframes mask5Up {
+  from {
+    transform: translate(0, 5%);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUpShorter {
+  from {
+    opacity: 0;
+    transform: translate(0, 50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideUpFromBottom {
+  0% {
+    transform: translateY(70%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
